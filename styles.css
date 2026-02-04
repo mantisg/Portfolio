@@ -15,6 +15,7 @@ body {
 header {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 40px;
 }
 
 h1 {
@@ -37,13 +38,29 @@ main {
     flex-direction: column;
 }
 
+.projects {
+    background-color: #555a6d;
+}
+
 #projects-container {
     display: flex;
     height: 600px;
+    margin-left: 20px;
 }
 
 .details-window {
     flex: 2;
+    border: 1px solid #3a3d49;
+    border-radius: 10px;
+    box-shadow: 3px 3px #f0f0f0;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+}
+
+.details-window img {
+    height: 300px;
+    display: block;
+    margin: 0 auto;
 }
 
 nav {
@@ -55,6 +72,11 @@ nav {
 .project-row {
     display: flex;
     gap: 20px;
+}
+
+.project-img {
+    height: 150px;
+    display: block;
 }
 
 #project-title {
