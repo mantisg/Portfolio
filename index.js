@@ -43,6 +43,10 @@ function showDetails(projectId) {
             details = 'Luca\'s Adventure is a small 2D sidescroller game built with Python Pygame for my son. It features simple gameplay mechanics and charming visuals.';
             titleElement.textContent = 'Luca\'s Adventure';
             break;
+        default:
+            details = 'Polygonia is a rogue-like game built using Python and the Pygame library. Explore procedurally generated dungeons, collect items, and battle enemies in this exciting adventure.';
+            titleElement.textContent = 'Polygonia';
+            break;
     }
     const imageElement = document.getElementById('details-image');
     const descElement = document.getElementById('details-desc');
