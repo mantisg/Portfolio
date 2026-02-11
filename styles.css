@@ -82,6 +82,10 @@ nav {
     margin-bottom: 20px;
 }
 
+.project {
+    cursor: pointer;
+}
+
 .project-img {
     height: 150px;
     display: block;
